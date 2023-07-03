@@ -13,3 +13,9 @@ Cada frase nueva ingresada se va a ir agregando a la grilla como componente Phra
 - src/App.tsx contiene la mayor parte de la lógica de la aplicación
 - src/components/PhrseCard.tsx representa cada Card (frase) agregada a la grilla
 - src/utilities/index.tsx contiene una función que cambia el color del texto dependiendo del color de fondo de la Card
+
+## Testing
+
+Hay tests unitarios para validar funcionalidades de la aplicación. Las mismas se pueden correr con el comando `npm test`, que abarcan los archivos que se encuentran en:
+- src/App.test.tsx
+- src/components/PhrseCard.test.tsx
